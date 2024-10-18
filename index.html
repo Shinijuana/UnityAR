@@ -29,7 +29,7 @@
             right: 0;
             top: 0;
             bottom: 0;
-            background: #fffa;
+            background: #0000FF;
             z-index: 99;
         }
     </style>
@@ -43,11 +43,11 @@
         <button id="startCameraBtn" onclick="StartCamera()" style="display:none">ALLOW ACCESS</button>
     </div>
     <div id="startWebcamManuallyDiv" style="display: none" class="ctaDiv">
-        <button onclick="StartCameraManually()" style="width:180px; height:40px; border:1px solid gray; border-radius:8px">START WEBCAM</button>
+        <button onclick="StartCameraManually()" style="width:180px; height:40px; border:1px solid #00FFFF; border-radius:8px">START WEBCAM</button>
     </div>
 
     <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #0000; z-index: -99"></canvas>
+        <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #0000FF; z-index: -99"></canvas>
         <div id="unity-loading-bar">
             <div id="unity-logo"></div>
             <div id="unity-progress-bar-empty">
