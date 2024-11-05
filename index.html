@@ -29,7 +29,7 @@
             right: 0;
             top: 0;
             bottom: 0;
-            background: #fffa;
+            background: #0000ff;
             z-index: 99;
         }
     </style>
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/WebGL.data.br",
-                    frameworkUrl: "Build/WebGL.framework.js.br",
-                    codeUrl: "Build/WebGL.wasm.br",
+                    dataUrl: "Build/WebGL.data",
+                    frameworkUrl: "Build/WebGL.framework.js",
+                    codeUrl: "Build/WebGL.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "My project",
